@@ -3,7 +3,7 @@
 ## Biblioteca
 O presente projeto visa elaborar diversas procedures em uma base de dados fornecida referente a uma biblioteca.
 
-Seguem as tabelas
+Seguem as tabelas:
 
 - **CARD** (Number, Fines, Status)
 - **CUSTOMER** (ID, Name, Address, Phone_number, Card_number [References CARD(Number)], Password, User_name, Date_sign_up)
