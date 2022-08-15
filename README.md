@@ -1,7 +1,9 @@
 # PL/SQL
 
 ## Biblioteca
-O presente projeto visa elaborar diversas procedures em uma base de dados fornecida referente a uma biblioteca. As procedures estão no arquivo Biblioteca.
+O presente projeto visa elaborar diversas procedures em uma base de dados fornecida referente a uma biblioteca. 
+
+As procedures estão no arquivo Biblioteca.
 
 Seguem as tabelas:
 
