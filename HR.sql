@@ -20,7 +20,7 @@ END IF;
 END SP_CONFERE_NM_FUNCIONARIO
 
 
---Função PIVOT--
+--Função PIVOT (matriz de informações conforme necessidades do usuário)-- 
 
 SELECT e.manager_id, e.department_id, 
        count(e.employee_id) 
@@ -76,7 +76,7 @@ SELECT to_char(hire_date, 'YYYYMMDD') AS "TO_CHAR"
 SELECT to_date(hire_date, 'YYYYMMDD') AS "TO_DATE"
   FROM dual;
 
---STDDEV--
+--STDDEV (calcula o desvio padrão)--
 
 SELECT department_id AS DPTO,
        hire_date,
