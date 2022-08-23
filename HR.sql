@@ -76,7 +76,7 @@ SELECT to_char(hire_date, 'YYYYMMDD') AS "TO_CHAR"
 SELECT to_date(hire_date, 'YYYYMMDD') AS "TO_DATE"
   FROM dual;
 
---STDDEV (calcula o desvio padrão)--
+--STDDEV (calcula o desvio padrão de valores)--
 
 SELECT department_id AS DPTO,
        hire_date,
